@@ -1,15 +1,39 @@
-Library Name 
+Easify.Reports
 ============
 
-Brief description of the component or library.
+The library facilitates the generation of Excel and Json base results from different providers.
 
 ## Get Started
 
-Description of how to start working with library
-
 ### How to use
 
-The usage of the library or link to the relevant wiki page need to be here.
+```shell
+Install-Package Easify.Reports
+``` 
+
+or 
+
+```
+dotnet add package Easify.Reports
+```
+
+Then you can add the following code to your startup to enable reporting support in **ServiceCollection**
+
+```c#
+services.AddReporting();
+```
+
+The following interfaces should be implemented and registered with **ServiceCollection**
+
+#### Excel
+
+The excel output renderer expect a template to be filled in by different provider. The excel rendered tries to map a named region in the excel to a simple or composite entity. The following interfaces should be provided to enable the end to end process:
+
+- **ITemplateProvider": This is purely for the Excel output rendering and provides the empty template for Excel containing named regions. Multiple templates can be defined to cover each report type
+
+As each section of the report can be provided from different data source, A series of interfaces need to be implemented for each entity 
+- **SingleSnapshotDataRenderer<T> or CompositeSnapshotDataRenderer<T>**: An abstract classes to define how rendering needs to be done for a specific entity (T). Single is applying only one formatter and composite is required when multiple formatting is the target.
+- **ExcelFormatter<T> or GroupExcelFormatter<T>**: Is formatting the output including headers and rows. Group formatter is when single header is required with multiple grouped rows.
 
 ### How to Engage, Contribute, and Give Feedback
 
@@ -25,6 +49,11 @@ and make pull-requests.
 
 Security issues and bugs should be reported by creating the relevant features and bugs in issues sections
 
+
 ## Related projects
 
-Include related projects 
+- [Easify](https://github.com/icgam/Easify)
+- [Easify.Ef](https://github.com/icgam/Easify.Ef)
+- [Easify.Templates](https://github.com/icgam/Easify.Templates)
+- [Easify.Excel](https://github.com/icgam/Easify.Excel)
+- [CloseXml](https://github.com/closedxml)
