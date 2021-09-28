@@ -2,6 +2,8 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Mohammad Moattar</Authors>
+    <PackageProjectUrl>https://github.com/ICGAM/Easify.Reports</PackageProjectUrl>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Easify.Excel.ClosedXml" Version="1.0.1" />
