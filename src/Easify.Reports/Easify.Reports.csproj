@@ -4,6 +4,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Mohammad Moattar</Authors>
     <PackageProjectUrl>https://github.com/ICGAM/Easify.Reports</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ICGAM/Easify.Reports</RepositoryUrl>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Easify.Excel.ClosedXml" Version="1.0.1" />
