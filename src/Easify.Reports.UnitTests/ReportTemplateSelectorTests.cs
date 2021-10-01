@@ -29,7 +29,7 @@ namespace Easify.Reports.UnitTests
     {
         [Theory]
         [AutoSubstituteAndData]
-        public async Task Should_ReportTemplateSelector_throw_proper_error_on_wront_configuration()
+        public async Task Should_ReportTemplateSelector_throw_proper_error_on_wrong_configuration()
         {
             // Given
 

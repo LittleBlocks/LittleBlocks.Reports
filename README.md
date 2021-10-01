@@ -1,7 +1,7 @@
 Easify.Reports
 ============
 
-The library facilitates the generation of Excel and Json base results from different providers.
+The library facilitates the generation of Excel and Json based results from different providers.
 
 ## Get Started
 
@@ -27,13 +27,13 @@ The following interfaces should be implemented and registered with **ServiceColl
 
 #### Excel
 
-The excel output renderer expect a template to be filled in by different provider. The excel rendered tries to map a named region in the excel to a simple or composite entity. The following interfaces should be provided to enable the end to end process:
+The excel output renderer expects a template to be filled in by different providers. The excel rendered tries to map a named region in the excel to a simple or composite entity. The following interfaces should be provided to enable the end to end process:
 
 - **ITemplateProvider": This is purely for the Excel output rendering and provides the empty template for Excel containing named regions. Multiple templates can be defined to cover each report type
 
 As each section of the report can be provided from different data source, A series of interfaces need to be implemented for each entity 
-- **SingleSnapshotDataRenderer<T> or CompositeSnapshotDataRenderer<T>**: An abstract classes to define how rendering needs to be done for a specific entity (T). Single is applying only one formatter and composite is required when multiple formatting is the target.
-- **ExcelFormatter<T> or GroupExcelFormatter<T>**: Is formatting the output including headers and rows. Group formatter is when single header is required with multiple grouped rows.
+- **SingleSnapshotDataRenderer<T> or CompositeSnapshotDataRenderer<T>**: Abstract classes to define how rendering needs to be done for a specific entity (T). Single is applying only one formatter and composite is required when multiple formatting is the target.
+- **ExcelFormatter<T> or GroupExcelFormatter<T>**: Formatting the output including headers and rows. Group formatter is when single header is required with multiple grouped rows.
 
 ### How to Engage, Contribute, and Give Feedback
 
