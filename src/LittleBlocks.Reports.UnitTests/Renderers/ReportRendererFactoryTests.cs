@@ -1,5 +1,5 @@
-// This software is part of the Easify.Reports Library
-// Copyright (C) 2021 Intermediate Capital Group
+// This software is part of the LittleBlocks.Reports Library
+// Copyright (C) 2021 LittleBlocks
 // 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Affero General Public License as published by
@@ -17,16 +17,16 @@
 
 
 using System.Collections.Generic;
-using Easify.Reports.Model;
-using Easify.Reports.Providers.Exceptions;
-using Easify.Reports.Renderers;
-using Easify.Reports.Renderers.Excel;
-using Easify.Reports.Renderers.Json;
-using Easify.Testing;
+using LittleBlocks.Reports.Model;
+using LittleBlocks.Reports.Providers.Exceptions;
+using LittleBlocks.Reports.Renderers;
+using LittleBlocks.Reports.Renderers.Excel;
+using LittleBlocks.Reports.Renderers.Json;
+using LittleBlocks.Testing;
 using FluentAssertions;
 using Xunit;
 
-namespace Easify.Reports.UnitTests.Renderers
+namespace LittleBlocks.Reports.UnitTests.Renderers
 {
     public class ReportRendererFactoryTests
     {

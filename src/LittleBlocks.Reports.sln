@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easify.Reports", "Easify.Reports\Easify.Reports.csproj", "{2F327E65-0E66-4D61-8C11-246468AC97AD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LittleBlocks.Reports", "LittleBlocks.Reports\LittleBlocks.Reports.csproj", "{2F327E65-0E66-4D61-8C11-246468AC97AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Easify.Reports.UnitTests", "Easify.Reports.UnitTests\Easify.Reports.UnitTests.csproj", "{9F0153A9-F686-42FE-B42D-0878B371388D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LittleBlocks.Reports.UnitTests", "LittleBlocks.Reports.UnitTests\LittleBlocks.Reports.UnitTests.csproj", "{9F0153A9-F686-42FE-B42D-0878B371388D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

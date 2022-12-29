@@ -1,5 +1,5 @@
-// This software is part of the Easify.Reports Library
-// Copyright (C) 2021 Intermediate Capital Group
+// This software is part of the LittleBlocks.Reports Library
+// Copyright (C) 2021 LittleBlocks
 // 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Affero General Public License as published by
@@ -19,11 +19,11 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Easify.Testing;
+using LittleBlocks.Testing;
 using FluentAssertions;
 using Xunit;
 
-namespace Easify.Reports.UnitTests
+namespace LittleBlocks.Reports.UnitTests
 {
     public class ReportTemplateSelectorTests
     {

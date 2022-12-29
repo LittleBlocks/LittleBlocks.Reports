@@ -1,5 +1,5 @@
-// This software is part of the Easify.Reports Library
-// Copyright (C) 2021 Intermediate Capital Group
+// This software is part of the LittleBlocks.Reports Library
+// Copyright (C) 2021 LittleBlocks
 // 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Affero General Public License as published by
@@ -17,15 +17,15 @@
 
 
 using System;
-using Easify.Excel;
-using Easify.Excel.ClosedXml;
-using Easify.Reports.Renderers;
-using Easify.Reports.Renderers.Excel;
-using Easify.Reports.Renderers.Json;
+using LittleBlocks.Excel;
+using LittleBlocks.Excel.ClosedXml;
+using LittleBlocks.Reports.Renderers;
+using LittleBlocks.Reports.Renderers.Excel;
+using LittleBlocks.Reports.Renderers.Json;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 
-namespace Easify.Reports
+namespace LittleBlocks.Reports
 {
     public static class ServiceCollectionExtensions
     {

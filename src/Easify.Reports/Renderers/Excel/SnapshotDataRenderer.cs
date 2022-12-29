@@ -1,5 +1,5 @@
-// This software is part of the Easify.Reports Library
-// Copyright (C) 2021 Intermediate Capital Group
+// This software is part of the LittleBlocks.Reports Library
+// Copyright (C) 2021 LittleBlocks
 // 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Affero General Public License as published by
@@ -19,12 +19,12 @@
 using System;
 using System.Linq;
 using System.Threading.Tasks;
-using Easify.Excel;
-using Easify.Excel.Extensions;
-using Easify.Reports.Model;
+using LittleBlocks.Excel;
+using LittleBlocks.Excel.Extensions;
+using LittleBlocks.Reports.Model;
 using Microsoft.Extensions.Logging;
 
-namespace Easify.Reports.Renderers.Excel
+namespace LittleBlocks.Reports.Renderers.Excel
 {
     public abstract class SnapshotDataRenderer<T> : ExcelReportDataRenderer where T : Snapshot
     {
