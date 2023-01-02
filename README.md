@@ -1,4 +1,4 @@
-Easify.Reports
+LittleBlocks.Reports
 ============
 
 The library facilitates the generation of Excel and Json based results from different providers.
@@ -8,13 +8,13 @@ The library facilitates the generation of Excel and Json based results from diff
 ### How to use
 
 ```shell
-Install-Package Easify.Reports
+Install-Package LittleBlocks.Reports
 ``` 
 
 or 
 
 ```
-dotnet add package Easify.Reports
+dotnet add package LittleBlocks.Reports
 ```
 
 Then you can add the following code to your startup to enable reporting support in **ServiceCollection**
@@ -52,8 +52,8 @@ Security issues and bugs should be reported by creating the relevant features an
 
 ## Related projects
 
-- [Easify](https://github.com/icgam/Easify)
-- [Easify.Ef](https://github.com/icgam/Easify.Ef)
-- [Easify.Templates](https://github.com/icgam/Easify.Templates)
-- [Easify.Excel](https://github.com/icgam/Easify.Excel)
+- [LittleBlocks](https://github.com/LittleBlocks/LittleBlocks)
+- [LittleBlocks.Ef](https://github.com/LittleBlocks/LittleBlocks.Ef)
+- [LittleBlocks.Templates](https://github.com/LittleBlocks/LittleBlocks.Templates)
+- [LittleBlocks.Excel](https://github.com/LittleBlocks/LittleBlocks.Excel)
 - [CloseXml](https://github.com/closedxml)
